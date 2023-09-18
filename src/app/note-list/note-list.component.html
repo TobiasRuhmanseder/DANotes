@@ -115,6 +115,6 @@
         </div>
     </div>
     <div>
-        <app-note *ngFor="let note of this.noteService.items$ | async"></app-note>
+        <app-note *ngFor="let note of this.getList()"></app-note>
     </div>
 </div>
